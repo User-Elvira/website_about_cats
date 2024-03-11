@@ -1,0 +1,58 @@
+/*седектор класса*/
+.myclass1{
+   color: blue;
+   font-size: 20px;
+}
+/*селектор тега ol*/
+ol{
+    color:blueviolet
+}
+/*селектор по id*/
+#my_id{
+    color:brown;
+    font-size: 20px;
+}
+/*селектор по атрибуту(все ссылки)*/
+a[href]{
+    color:rgb(174, 222, 61);
+    font-size: 20px;
+}
+/*селектор по атрибуту(ссылка на сайт с 1-м котиком)*/
+a[href="http://cybercoon.ru/news/10-prichin-kupit-mejn-kuna"]{
+    color:chocolate;
+    font-size: 40px;
+}
+/*селектор по псевдоклассу(при наведении текст увеличивается)*/
+ul:hover{
+    font-size: 20px;
+}
+a:active{
+   color:darkblue;
+    text-decoration-line:line-through;
+} 
+/*селектор по псевдоэлементу*/
+section::first-letter{
+    color:cornflowerblue;
+    font-size: 100px;
+}
+/*Глобальный селектор(цвет фона)*/
+*{
+    background-color:antiquewhite;
+}
+/*рамка таблицы*/
+table, td{
+    border:3px solid;
+    border-collapse: collapse;
+    border-color: yellowgreen;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#id2{
+    background-color: yellow;
+}
+#id3{
+    text-align:right;
+}
+#id4{
+    text-align: center;
+}

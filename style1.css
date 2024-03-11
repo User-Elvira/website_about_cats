@@ -1,0 +1,16 @@
+/*селектор к тегу h3*/
+h3{
+    color:cadetblue;
+    font-family:  Boombox Family;
+    font-size: 40px;
+}
+
+.href:hover{
+font-size: 30px;
+}
+
+.h1{
+    font-size: 40px;
+    text-align: center;
+    color:rgb(174, 222, 61);
+}
